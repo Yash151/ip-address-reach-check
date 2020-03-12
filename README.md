@@ -9,16 +9,16 @@ Python 3.6+, python-pip
 
 First clone this repository.
 
-    `$ git clone https://github.com/Yash151/resize-image.git`
-    `$ cd resize-image`
+    $ git clone https://github.com/Yash151/resize-image.git
+    $ cd resize-image
 
 Install necessary python packages
 
-    `$ pip  install -r requirements.txt`
+    $ pip  install -r requirements.txt
 
 Run the application
 
-    `$ python views.py`
+    $ python views.py
 
 To use the applciation for resizing your image, access the below url in your browser:
 
@@ -32,11 +32,11 @@ To use the applciation for resizing your image, access the below url in your bro
 
 #### Attack string on Windows machine
 
-    `127.0.0.1"& password.txt"`
+    127.0.0.1"& password.txt"
 
 #### Attack string for any other OS
 
-    `127.0.0.1"; cat /password.txt"`
+    127.0.0.1"; cat /password.txt"
 
 ### Cross-Site Scripting Attack (XSS)
 
@@ -44,6 +44,6 @@ To use the applciation for resizing your image, access the below url in your bro
 
 #### Attack string for XSS
 
-    `<script>alert('This is an XSS attack')</script>`
+    <script>alert('This is an XSS attack')</script>
 
 
